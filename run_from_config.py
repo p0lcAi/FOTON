@@ -9,7 +9,6 @@ import torch.nn as nn
 
 from data_setup import get_data_visually
 from model_utils.foton import FOTON
-from model_utils.foton_conv import FOTONBCOP, FOTONConv, FOTONConvSK, FOTONLeNet5
 from training_utils import train_test_FOTON
 from wandb_helpers import maybe_init_wandb, maybe_log, maybe_finish  # optional but harmless
 
