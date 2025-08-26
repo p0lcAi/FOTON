@@ -10,8 +10,6 @@ import torch
 import torch.nn as nn
 from typing import Any, Mapping
 
-from conv_ortho_utils.layers_utils import bjorck_orthonormalize
-
 
 # -----------------------------
 # Orthogonalization
